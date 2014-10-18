@@ -1,0 +1,226 @@
+/************************************************/
+/***********     CSS CONTENT      **********/
+/***********************************************/
+/*
+
+- Initialize
+- Global
+- Header
+- Home content
+- Aside
+- Footer
+
+*/
+/************************************************/
+/*************     INITIALIZE      **************/
+/***********************************************/
+
+/************************************************/
+/*************     GLOBAL      ****************/
+/***********************************************/
+body {
+	color: #000;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+.box-me{
+	background-color: #fdd;
+	box-shadow: border-right;
+	margin-top: 10px;
+	/*height: 300px;*/
+}
+
+.box-h{
+	background-color: #FF4A44;
+  	padding-top: 0;
+	padding-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px;
+	padding: 10px;
+}
+
+#home {	
+	background-image: url(images/coulure.png);
+	background-repeat: no-repeat;
+}
+
+
+#section {
+	float: left;
+	width: 70%;
+}
+
+p {
+	font-family: Comfortaa, cursive;	
+}
+
+h3 {
+	font-family: Righteous, cursive;
+}
+/************************************************/
+/*************     HEADER      ****************/
+/***********************************************/
+
+#header {
+	text-align: center;
+}
+
+#header h1{
+	color: #000;	
+	font-size: 40px;
+	font-family: Comfortaa, cursive;
+}
+
+#header h1 span{
+	color: #000;	
+	font-size: 70px;
+	font-family: Comfortaa, cursive;
+}
+
+#header h2{
+	color: #000;
+	height: 50px;
+	font-family: Comfortaa, cursive;
+	font-size: 30px;
+}
+
+#header h2 span{
+	color: #000;
+	height: 50px;
+	font-family: Comfortaa, cursive;
+	font-size: 35px;
+}
+
+#mainnav li{
+	color: #000;
+	display: inline-block;
+	height: 200px;
+	font-size: 50px;
+}
+
+#mainnav a{
+	margin: 72px;
+}
+
+.navbar-default {
+	background-color: transparent; 
+	border-color: transparent;
+	background-image: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-nav>li>a {
+	color: #000;
+	font-size: 18px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+	margin: 1px;
+}
+
+#lienart1 {
+	background-color: #C7FF01;
+	font-family: Righteous, cursive;
+}
+
+#lienart2 {
+	background-color: #FF7E00;
+	font-family: Righteous, cursive;
+
+}
+
+#lienart3 {
+	background-color: #1b17e6;
+	font-family: Righteous, cursive;
+}
+
+#lienart4 {
+	background-color: #cb0da1;
+	font-family: Righteous, cursive;
+}
+
+#lienart5 {
+	background-color: #F7FF00;
+	font-family: Righteous, cursive;
+}
+
+#lienart6 {
+	background-color: #fc010f;
+	font-family: Righteous, cursive;
+}
+
+#lienagenda {
+	background-color: #FB056D;
+	font-family: Righteous, cursive;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li {
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1420px) {
+	.navbar-right {
+		float: none!important;
+	}
+}
+
+/************************************************/
+/**********     HOME CONTENT      *********/
+/***********************************************/
+
+/************************************************/
+/*************        ASIDE       ****************/
+/***********************************************/
+
+/************************************************/
+/*************     FOOTER      ****************/
+/***********************************************/
+
+
+
+#footer {
+	background-color: #FF4A44;
+	font-weight: 50px;
+	font-size: 15;
+	padding-top: 0;
+  	padding-bottom: 0;
+  	text-align: center;
+  	height: 80px;
+}
+ 
+ #footer a{
+ 	color: #190482;
+ 	font-size: 25px;
+ }
+
+
+ #footer a:hover {	
+ 	color: #fdd;
+ }
+
+ #footer h3 i{
+ 	color: #190482;
+ 	font-size: 25px;
+ }
+
+ #footer ul{
+ 	list-style-position: inside;
+ }
+
+
+
+
+
+
+
+
