@@ -1,4 +1,4 @@
-<?php include "header.php"; ?>
+<?php get_header(); ?>
 
 		    	</div> <!-- col-md-12 -->
             </div> <!-- row -->
@@ -68,16 +68,5 @@
 
 
 
-<?php include "footer.php"; ?>
+<?php get_footer(); ?>
 
-</div><!-- container-fluid -->
-</div> <!-- fermeture home-->
-<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
-</script>
-<script type="text/javascript" src="global.js">
-</script>
-</body>
-</html> 

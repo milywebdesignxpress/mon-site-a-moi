@@ -1,3 +1,17 @@
+/*
+Theme Name: GPL
+Theme URI: http://something.com
+Author: Mily
+Author URI: 
+Description: Site GPL
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, genius, talented
+*/
+
+
+
 /************************************************/
 /***********     CSS CONTENT      **********/
 /***********************************************/
@@ -18,6 +32,8 @@
 /************************************************/
 /*************     GLOBAL      ****************/
 /***********************************************/
+
+
 body {
 	color: #000;
 	text-align: center;
@@ -107,6 +123,10 @@ h3 {
 	margin: 72px;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: transparent;
+	background-image: none;
+}
 .navbar-default {
 	background-color: transparent; 
 	border-color: transparent;
@@ -115,7 +135,7 @@ h3 {
 	box-shadow: none;
 }
 
-.navbar-nav>li>a {
+.navbar-nav>li {
 	color: #000;
 	font-size: 18px;
 	padding-right: 10px;
@@ -124,38 +144,38 @@ h3 {
 	margin: 1px;
 }
 
-#lienart1 {
+.lienart1 {
 	background-color: #C7FF01;
 	font-family: Righteous, cursive;
 }
 
-#lienart2 {
+.lienart2 {
 	background-color: #FF7E00;
 	font-family: Righteous, cursive;
 
 }
 
-#lienart3 {
+.lienart3 {
 	background-color: #1b17e6;
 	font-family: Righteous, cursive;
 }
 
-#lienart4 {
+.lienart4 {
 	background-color: #cb0da1;
 	font-family: Righteous, cursive;
 }
 
-#lienart5 {
+.lienart5 {
 	background-color: #F7FF00;
 	font-family: Righteous, cursive;
 }
 
-#lienart6 {
+.lienart6 {
 	background-color: #fc010f;
 	font-family: Righteous, cursive;
 }
 
-#lienagenda {
+.lienagenda {
 	background-color: #FB056D;
 	font-family: Righteous, cursive;
 }
