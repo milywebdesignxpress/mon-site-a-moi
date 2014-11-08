@@ -6,6 +6,7 @@
     <div class="row">
         <article>
             <div class="col-sm-6 col-sm-push-6">
+            <?php // la boucle va ici ?>
                 <div class="box-me">
                     <h3>ARTISTE DU MOIS</h3>
                        <img src="http://placehold.it/450x250">
