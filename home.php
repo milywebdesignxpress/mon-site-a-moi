@@ -4,12 +4,6 @@
             </div> <!-- row -->
 <section>
     <div class="row">
-            <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : the_post(); ?>
-            <?php the_content(); ?>
-            <?php endwhile; ?>
-            <?php endif; ?>
-
         <article>
             <div class="col-sm-6 col-sm-push-6">
                 <div class="box-me">
@@ -27,13 +21,6 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6" >
-                    <?php if (have_posts()) : ?>
-                    <?php while (have_posts()) : the_post(); ?>
-                    <?php the_content(); ?>
-                    <?php endwhile; ?>
-                    <?php endif; ?>
-
-
                     <div class="box-me">
                         <article>
                             <h3>ARTS AUDIOVISUELS</h3>

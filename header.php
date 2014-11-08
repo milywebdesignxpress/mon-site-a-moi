@@ -18,7 +18,7 @@
     <link href='http://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
     <!--link rel="stylesheet" type="text/css" href="style.css"-->
     <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css" /> <!--instead of style.css-->
-    <?php wp_head();?>
+    <?php wp_head();?> <!--A METTRE IMPERAtIVEMENT-->
 </head>
 
 <body>
