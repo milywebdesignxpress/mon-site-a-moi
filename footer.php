@@ -1,5 +1,5 @@
-<footer>
-    <div id="footer">
+<footer id="footer">
+    <div >
         <div class="container-fluid">
             <div class="row">
                	<div class="col-md-12">
@@ -55,8 +55,6 @@
        </div> <!--fermeture container fluid-->   
     </div> <!-- fermeture div footer -->
 </footer>
-
-
 </div><!-- container-fluid -->
 </div> <!-- fermeture home-->
 <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
